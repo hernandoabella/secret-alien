@@ -1,0 +1,455 @@
+body {
+     background: rgb(8, 8, 128);
+     overflow: hidden;
+}
+
+.head{
+    background: #000;
+    width: 126px;
+    height: 180px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    transform: rotate(180deg);
+    margin: 150px auto;
+    animation: alienRotation 1s;
+    cursor: pointer;
+    
+    
+}
+
+.head:hover{
+    opacity: 0;
+    transition: all ease-in-out 3s;
+}
+
+.eye1{
+    background: #00cc00; 
+    width: 100px;
+    height: 40px;
+    border-radius: 100px / 40px; 
+    transform: rotate(-110deg);
+    position: relative;
+    float: right;
+    left: 20px;
+    top: 50px;
+    animation: eyeEffect 5s;
+    
+}
+
+
+.eye2{
+    background: #00cc00; 
+    width: 100px;
+    height: 40px;
+    border-radius: 100px / 40px; 
+    transform: rotate(110deg);
+    position: relative;
+    float: left;
+    right: 20px;
+    top: 10px;
+    animation: eyeEffect 5s;
+
+}
+
+.star1{
+    background: #fff;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+    border-radius: 100px;
+    animation: starEffect 2s;
+    animation-iteration-count: infinite;
+}
+
+.star2{
+    background: #fff;
+    width: 5px;
+    height: 5px;
+    position: relative;
+    bottom: 200px;
+    left: 200px;
+    border-radius: 100px;
+    animation: starEffect 4s;
+    animation-iteration-count: infinite;
+}
+
+.star3{
+    background: #fff;
+    width: 3px;
+    height: 3px;
+    position: relative;
+    bottom: 400px;
+    left: 300px;
+    border-radius: 100px;
+    animation: starEffect 3s;
+    animation-iteration-count: infinite;
+}
+
+.star4{
+    background: #fff;
+    width: 2px;
+    height: 2px;
+    position: relative;
+    bottom: 200px;
+    left: 500px;
+    border-radius: 100px;
+    animation: starEffect 2s;
+    animation-iteration-count: infinite;
+}
+
+.star5{
+    background: #fff;
+    width: 5px;
+    height: 5px;
+    position: relative;
+    bottom: 200px;
+    left: 600px;
+    border-radius: 100px;
+    animation: starEffect 7s;
+    animation-iteration-count: infinite;
+}
+
+.star6{
+    background: #fff;
+    width: 5px;
+    height: 5px;
+    position: relative;
+    bottom: -10px;
+    left: 300px;
+    border-radius: 100px;
+    animation: starEffect 4s;
+    animation-iteration-count: infinite;
+}
+
+.star7{
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    bottom: 450px;
+    left: 200px;
+    border-radius: 100px;
+    animation: starEffect 3s;
+    animation-iteration-count: infinite;
+}
+
+.star8{
+    background: #fff;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    bottom: 100px;
+    right: -60px;
+    border-radius: 100px;
+    animation: starEffect 6s;
+    animation-iteration-count: infinite;
+}
+
+.star9{
+    background: #fff;
+    width: 5px;
+    height: 5px;
+    position: relative;
+    bottom: 400px;
+    left: 100px;
+    border-radius: 100px;
+    animation: starEffect 4s;
+    animation-iteration-count: infinite;
+}
+
+.star10{
+    background: #fff;
+    width: 5px;
+    height: 5px;
+    position: relative;
+    bottom: 400px;
+    left: 550px;
+    border-radius: 100px;
+    animation: starEffect 3s;
+    animation-iteration-count: infinite;
+}
+
+.star11{
+    background: #fff;
+    width: 8px;
+    height: 8px;
+    position: relative;
+    bottom: 400px;
+    left: 450px;
+    border-radius: 100px;
+    animation: starEffect 6s;
+    animation-iteration-count: infinite;
+}
+
+.star12{
+    background: #fff;
+    width: 12px;
+    height: 12px;
+    position: relative;
+    bottom: 500px;
+    left: 500px;
+    border-radius: 100px;
+    animation: starEffect 12s;
+    animation-iteration-count: infinite;
+}
+
+.star13{
+    background: #fff;
+    width: 2px;
+    height: 2px;
+    position: relative;
+    bottom: 530px;
+    left: 400px;
+    border-radius: 100px;
+    animation: starEffect 7s;
+    animation-iteration-count: infinite;
+}   
+
+.star14{
+    background: #fff;
+    width: 5px;
+    height: 5px;
+    position: relative;
+    bottom: 480px;
+    left: 580px;
+    border-radius: 100px;
+    animation: starEffect 5s;
+    animation-iteration-count: infinite;
+}
+
+.star15{
+    background: #fff;
+    width: 3px;
+    height: 3px;
+    position: relative;
+    bottom: 480px;
+    left: 380px;
+    border-radius: 100px;
+    animation: starEffect 4s;
+    animation-iteration-count: infinite;
+}
+
+.star16{
+    background: #fff;
+    width: 5px;
+    height: 5px;
+    position: relative;
+    bottom: 180px;
+    left: 280px;
+    border-radius: 100px;
+    animation: starEffect 3s;
+    animation-iteration-count: infinite;
+}
+
+.star17{
+    background: #fff;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    bottom: 180px;
+    left: 480px;
+    border-radius: 100px;
+    animation: starEffect 4s;
+    animation-iteration-count: infinite;
+}
+
+.star18{
+    background: #fff;
+    width: 2px;
+    height: 2px;
+    position: relative;
+    bottom: 180px;
+    left: 380px;
+    border-radius: 100px;
+    animation: starEffect 3s;
+    animation-iteration-count: infinite;
+}
+
+.star19{
+    background: #fff;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    bottom: 180px;
+    left: 580px;
+    border-radius: 100px;
+    animation: starEffect 4s;
+    animation-iteration-count: infinite;
+}
+
+.star20{
+    background: #fff;
+    width: 1px;
+    height: 1px;
+    position: relative;
+    bottom: 280px;
+    left: 280px;
+    border-radius: 100px;
+    animation: starEffect 3s;
+    animation-iteration-count: infinite;
+}
+
+.star21{
+    background: #fff;
+    width: 4px;
+    height: 4px;
+    position: relative;
+    bottom: 180px;
+    left: 180px;
+    border-radius: 100px;
+    animation: starEffect 5s;
+    animation-iteration-count: infinite;
+}
+
+.star22{
+    background: rgb(255, 255, 255);
+    width: 7px;
+    height: 7px;
+    position: relative;
+    bottom: 250px;
+    left: 400px;
+    border-radius: 100px;
+    animation: starEffect 4s;
+    animation-iteration-count: infinite;
+}
+
+.star23{
+    background: #fff;
+    width: 3px;
+    height: 3px;
+    position: relative;
+    bottom: 180px;
+    left: 280px;
+    border-radius: 100px;
+    animation: starEffect 3s;
+    animation-iteration-count: infinite;
+}
+
+.star24{
+    background: #fff;
+    width: 5px;
+    height: 5px;
+    position: relative;
+    bottom: 150px;
+    left: 480px;
+    border-radius: 100px;
+    animation: starEffect 4s;
+    animation-iteration-count: infinite;
+}
+
+.star25{
+    background: #fff;
+    width: 5px;
+    height: 5px;
+    position: relative;
+    bottom: 450px;
+    left: 180px;
+    border-radius: 100px;
+    animation: starEffect 3s;
+    animation-iteration-count: infinite;
+}   
+
+.star26{
+    background: #fff;
+    width: 3px;
+    height: 3px;
+    position: relative;
+    bottom: 380px;
+    left: 80px;
+    border-radius: 100px;
+    animation: starEffect 10s;
+    animation-iteration-count: infinite;
+}
+
+.star27{
+    background: #fff;
+    width: 3px;
+    height: 3px;
+    position: relative;
+    bottom: 400px;
+    left: 480px;
+    border-radius: 100px;
+    animation: starEffect 10s;
+    animation-iteration-count: infinite;
+}
+
+.star28{
+    background: #fff;
+    width: 2px;
+    height: 2px;
+    position: relative;
+    bottom: 390px;
+    left: 580px;
+    border-radius: 100px;
+    animation: starEffect 10s;
+    animation-iteration-count: infinite;
+}
+
+.star29{
+    background: #fff;
+    width: 4px;
+    height: 4px;
+    position: relative;
+    bottom: 430px;
+    left: 580px;
+    border-radius: 100px;
+    animation: starEffect 10s;
+    animation-iteration-count: infinite;
+}
+
+.star30{
+    background: #fff;
+    width: 7px;
+    height: 7px;
+    position: relative;
+    bottom: 280px;
+    left: 580px;
+    border-radius: 100px;
+    animation: starEffect 10s;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+@keyframes eyeEffect{
+    0%{
+        background: #00cc00; 
+    }
+
+    50%{
+        background: #000;
+    }
+    
+    100%{
+        background: #00cc00; 
+    }
+}
+
+
+@keyframes starEffect{
+    0%{
+        opacity: 1;
+    }
+
+    50%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;    
+    }
+}
+
+@keyframes alienRotation{
+    0%{
+        transform: rotate(180deg);
+    }
+
+
+    100%{
+        transform: rotate(-1260deg);
+    }
+}
+
